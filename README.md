@@ -11,13 +11,15 @@ Right now, the response is a byte[] variable, it should be transformed to other 
      example with all options->  cics:serverName1/program1?sslKeyring=sslKeyring1&sslPassword=sslPassword1&userId=userId1&password=password1&commAreaSize=0&port=100
 
 ## Requirements
-### CICS Transaction Gateway version >= 9.1 must be installed.
-### Fuse 6.1 access to the Fuse maven repostory
+ * CICS Transaction Gateway version >= 9.1 must be installed.
+ * Fuse 6.1 access to the Fuse maven repostory
   
 
 ## Instructions 
-### 1- Download CICS Transaction Gateway client from IBM portal 
-### 2- Extract the CICS® TG Client API bundle, com.ibm.ctg.client-1.0.0.jar from the CICS TG SDK package cicstgsdk/api/java/runtime to a directory on the local file system IBM drivers
+### 1- Download CICS Transaction Gateway client
+    Version CICS Transaction Gateway client 9.1 or higher
+### 2- Obtain driver OSGI bundle 
+Extract the CICS® TG Client API bundle, com.ibm.ctg.client-1.0.0.jar from the CICS TG SDK package cicstgsdk/api/java/runtime to a directory on the local file system IBM drivers
 ### 3- Install driver in local maven repository 
        mvn install:install-file -Dfile=com.ibm.ctg.client-1.0.0.jar -DgroupId=com.ibm.ctg -DartifactId=client -Dversion=1.0.0 -Dpackaging=jar
 ### 4- Build this project use

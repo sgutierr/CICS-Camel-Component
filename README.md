@@ -1,4 +1,4 @@
-# CICS-Camel-Component -> It's mandatory to do a real test in a CTG server environment!!!!!  Still I haven't done it
+# CICS-Camel-Component FUSE 6.1 -> It's mandatory to do a real test in a CTG server environment!!!!!  
 =======================
 
 This is a small probe of concept about Camel CICS component to connect with mainframe through CICS Gateway Transaction client.

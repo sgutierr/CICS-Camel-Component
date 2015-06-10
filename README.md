@@ -1,7 +1,7 @@
 # CICS-Camel-Component FUSE 6.1 -> It's mandatory to do a real test in a CTG server environment!!!!!  
 =======================
 
-This is a small probe of concept about Camel CICS component to connect with mainframe through CICS Gateway Transaction client.
+This is a small proof of concept about Camel CICS component to connect with mainframe through CICS Gateway Transaction client.
 Right now, the response is a byte[] variable, it should be transformed to other structure.
 
 ## Features
